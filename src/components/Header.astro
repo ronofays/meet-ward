@@ -1,0 +1,23 @@
+---
+import { Image } from "astro:assets";
+import logoTh from "../assets/logo-tophalf.png";
+---
+
+<header>
+  <div class="site-header">
+    <nav class="primary-nav">
+      <ul>
+        <li>
+          <Image
+            class="header-logo"
+            src={logoTh}
+            alt="Campaign logo for Acacia Ward"
+          />
+        </li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/get-involved">Get Involved!</a></li>
+        <li><a href="/donate">Donate</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
