@@ -154,21 +154,6 @@ nav ul {
   }
 }
 
-/*.platform {
-  display: grid;
-  justify-items: center;
-
-  h2 {
-    color: var(--secondary);
-    text-shadow: 0.2rem 0.2rem var(--accent);
-  }
-
-  h2 + p {
-    color: var(--secondary);
-    font-size: 2rem;
-  }
-}*/
-
 .priorities {
   display: grid;
   justify-items: center;
