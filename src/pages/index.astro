@@ -16,17 +16,26 @@ import logoBothalf from "../assets/logo-bothalf.png";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap"
+      rel="stylesheet"
+    />
     <meta name="generator" content={Astro.generator} />
     <title>Rochester for Ward</title>
   </head>
   <body>
     <Header />
     <main>
-      <div class="content-wrapper">
-        <section class="intro">
+      <section>
+        <div class="content-wrapper intro">
           <Image
             class="headshot"
             src={headshot}
@@ -49,8 +58,79 @@ import logoBothalf from "../assets/logo-bothalf.png";
               intention, accountability, and community focus.
             </p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      <section id="platform" class="platform-background">
+        <div class="priorities content-wrapper">
+          <h2>Priorities</h2>
+          <p>The important topics fueling my campaign</p>
+          <ul>
+            <li>
+              <p>
+                <span>An active city council</span> is one that prioritizes economic
+                mobility, quality of life, and community, using collaborative, innovative,
+                and proactive measures to serve their city.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Affordable everyday living</span> allows people to live with
+                stability and dignity. Affordability means having housing and transportation
+                that meet the needs of all community members.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>Public safety</span> is built on trust, prevention, and accountability.
+                It must support people before, during, and after a crisis.
+              </p>
+            </li>
+          </ul>
+          <!-- <h3>Better Public Meetings</h3>
+            <ul>
+              <li>
+                <h4>Elevate Community Voices</h4>
+                <p>
+                  Elevating community voices is the heart why I am running for
+                  City Council. Throughout my life, I have experienced what it
+                  feels like to be unheard, overlooked, or made to feel
+                  unwelcome in spaces where decisions are being made. I also
+                  know far too many people who feel their voices do not matter
+                  and that their vote will not lead to real change. I believe
+                  the City Council works best when it reflects the lived
+                  experiences of the people it serves. My commitment is to: I
+                  will go directly to constituents to learn about their vision
+                  for Rochester. Throughout my campaign for city council member
+                  I will ask community members to share their positive and
+                  negative experiences as Rochester residents.
+                </p>
+              </li>
+              <li>
+                <h4>Partnership across leadership and businesses</h4>
+                <p>
+                  I will advocate for stronger coordination between city‑led
+                  programs, county initiatives, nonprofits, and local businesses
+                  to reduce duplication and streamline application processes.
+                  Residents should not have to navigate multiple systems,
+                  deadlines, and requirements just to meet basic needs. This
+                  work will lay the foundation for long-term stability, not just
+                  short-term crisis response.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Affordable Everyday Living</h3>
+          </div>
+          <div>
+            <h3>Public safety</h3>
+          </div>
+          <div>
+            <h3>Transportation</h3>
+          </div> -->
+        </div>
+      </section>
     </main>
     <Footer />
   </body>
