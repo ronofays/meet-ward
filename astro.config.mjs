@@ -3,6 +3,5 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ronofays.github.io",
-  base: "/meet-ward",
+  site: "https://rochesterforward.com",
 });
