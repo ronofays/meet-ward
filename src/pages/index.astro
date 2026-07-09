@@ -5,7 +5,7 @@ import "../styles/reset.css";
 import "../styles/main.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import headshot from "../assets/headshot.jpg";
+import headshot from "../assets/headshot-cropped.jpg";
 import logoBothalf from "../assets/logo-bothalf.png";
 ---
 
@@ -36,11 +36,15 @@ import logoBothalf from "../assets/logo-bothalf.png";
     <main>
       <section>
         <div class="content-wrapper intro">
-          <Image
-            class="headshot"
-            src={headshot}
-            alt="Headshot photo of Acacia Ward"
-          />
+          <div class="headshot-container">
+            <Image
+              class="headshot"
+              src={headshot}
+              width={400}
+              height={500}
+              alt="Headshot photo of Acacia Ward"
+            />
+          </div>
           <div class="intro-content">
             <div class="rochester-forward">
               <Image src={logoBothalf} alt="Move Rochester for Ward" />
