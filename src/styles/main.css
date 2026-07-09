@@ -68,6 +68,7 @@ main {
   padding-inline: 3rem;
   padding-block: 2rem;
   margin-block-end: 1rem;
+  row-gap: 1rem;
 
   @media (width < 500px) {
     padding-inline: 0.5rem;
@@ -80,7 +81,7 @@ main {
   margin-inline: auto;
 }
 
-nav ul {
+nav > ul {
   display: flex;
   flex-wrap: wrap;
 
@@ -93,7 +94,8 @@ nav ul {
   padding-inline: 2rem;
   list-style: none;
   font-size: 2rem;
-  gap: 1rem;
+  column-gap: 1rem;
+  row-gap: 1.5rem;
 
   justify-content: space-evenly;
 }
